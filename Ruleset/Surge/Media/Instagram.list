@@ -1,79 +1,74 @@
-# 规则名称: Instagram
-# 仓库作者: thNylHx
-# 仓库地址: https://github.com/thNylHx/Tools
-# 规则数量: 74
-
-DOMAIN-SUFFIX,achat-followers-instagram.com
-DOMAIN-SUFFIX,acheter-followers-instagram.com
-DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
-DOMAIN-SUFFIX,acheterfollowersinstagram.com
-DOMAIN-SUFFIX,bookstagram.com
-DOMAIN-SUFFIX,carstagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,chickstagram.com
-DOMAIN-SUFFIX,graph-fallback.instagram.com
-DOMAIN-SUFFIX,graph.instagram.com
-DOMAIN-SUFFIX,ig.me
-DOMAIN-SUFFIX,igcdn.com
-DOMAIN-SUFFIX,igsonar.com
-DOMAIN-SUFFIX,igtv.com
-DOMAIN-SUFFIX,imstagram.com
-DOMAIN-SUFFIX,imtagram.com
-DOMAIN-SUFFIX,instaadder.com
-DOMAIN-SUFFIX,instachecker.com
-DOMAIN-SUFFIX,instafallow.com
-DOMAIN-SUFFIX,instafollower.com
-DOMAIN-SUFFIX,instagainer.com
-DOMAIN-SUFFIX,instagda.com
-DOMAIN-SUFFIX,instagify.com
-DOMAIN-SUFFIX,instagmania.com
-DOMAIN-SUFFIX,instagor.com
-DOMAIN-SUFFIX,instagram-brand.com
-DOMAIN-SUFFIX,instagram-engineering.com
-DOMAIN-SUFFIX,instagram-help.com
-DOMAIN-SUFFIX,instagram-press.com
-DOMAIN-SUFFIX,instagram-press.net
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagramci.com
-DOMAIN-SUFFIX,instagramcn.com
-DOMAIN-SUFFIX,instagramdi.com
-DOMAIN-SUFFIX,instagramhashtags.net
-DOMAIN-SUFFIX,instagramhilecim.com
-DOMAIN-SUFFIX,instagramhilesi.org
-DOMAIN-SUFFIX,instagramium.com
-DOMAIN-SUFFIX,instagramizlenme.com
-DOMAIN-SUFFIX,instagramkusu.com
-DOMAIN-SUFFIX,instagramlogin.com
-DOMAIN-SUFFIX,instagramm.com
-DOMAIN-SUFFIX,instagramn.com
-DOMAIN-SUFFIX,instagrampartners.com
-DOMAIN-SUFFIX,instagramphoto.com
-DOMAIN-SUFFIX,instagramq.com
-DOMAIN-SUFFIX,instagramsepeti.com
-DOMAIN-SUFFIX,instagramtakipcisatinal.net
-DOMAIN-SUFFIX,instagramtakiphilesi.com
-DOMAIN-SUFFIX,instagramtips.com
-DOMAIN-SUFFIX,instagramtr.com
-DOMAIN-SUFFIX,instagran.com
-DOMAIN-SUFFIX,instagranm.com
-DOMAIN-SUFFIX,instagrem.com
-DOMAIN-SUFFIX,instagrm.com
-DOMAIN-SUFFIX,instagtram.com
-DOMAIN-SUFFIX,instagy.com
-DOMAIN-SUFFIX,instamgram.com
-DOMAIN-SUFFIX,instangram.com
-DOMAIN-SUFFIX,instanttelegram.com
-DOMAIN-SUFFIX,instaplayer.net
-DOMAIN-SUFFIX,instastyle.tv
-DOMAIN-SUFFIX,instgram.com
-DOMAIN-SUFFIX,intagram.com
-DOMAIN-SUFFIX,intagrm.com
-DOMAIN-SUFFIX,intgram.com
-DOMAIN-SUFFIX,kingstagram.com
-DOMAIN-SUFFIX,lnstagram-help.com
-DOMAIN-SUFFIX,oninstagram.com
-DOMAIN-SUFFIX,online-instagram.com
-DOMAIN-SUFFIX,onlineinstagram.com
-DOMAIN-SUFFIX,theinstagramhack.com
-DOMAIN-SUFFIX,web-instagram.net
-DOMAIN-SUFFIX,wwwinstagram.com
+hostname-suffix, achat-followers-instagram.com, 服务优选
+hostname-suffix, acheter-followers-instagram.com, 服务优选
+hostname-suffix, acheterdesfollowersinstagram.com, 服务优选
+hostname-suffix, acheterfollowersinstagram.com, 服务优选
+hostname-suffix, bookstagram.com, 服务优选
+hostname-suffix, carstagram.com, 服务优选
+hostname-suffix, cdninstagram.com, 服务优选
+hostname-suffix, chickstagram.com, 服务优选
+hostname-suffix, graph-fallback.instagram.com, 服务优选
+hostname-suffix, graph.instagram.com, 服务优选
+hostname-suffix, ig.me, 服务优选
+hostname-suffix, igcdn.com, 服务优选
+hostname-suffix, igsonar.com, 服务优选
+hostname-suffix, igtv.com, 服务优选
+hostname-suffix, imstagram.com, 服务优选
+hostname-suffix, imtagram.com, 服务优选
+hostname-suffix, instaadder.com, 服务优选
+hostname-suffix, instachecker.com, 服务优选
+hostname-suffix, instafallow.com, 服务优选
+hostname-suffix, instafollower.com, 服务优选
+hostname-suffix, instagainer.com, 服务优选
+hostname-suffix, instagda.com, 服务优选
+hostname-suffix, instagify.com, 服务优选
+hostname-suffix, instagmania.com, 服务优选
+hostname-suffix, instagor.com, 服务优选
+hostname-suffix, instagram-brand.com, 服务优选
+hostname-suffix, instagram-engineering.com, 服务优选
+hostname-suffix, instagram-help.com, 服务优选
+hostname-suffix, instagram-press.com, 服务优选
+hostname-suffix, instagram-press.net, 服务优选
+hostname-suffix, instagram.com, 服务优选
+hostname-suffix, instagramci.com, 服务优选
+hostname-suffix, instagramcn.com, 服务优选
+hostname-suffix, instagramdi.com, 服务优选
+hostname-suffix, instagramhashtags.net, 服务优选
+hostname-suffix, instagramhilecim.com, 服务优选
+hostname-suffix, instagramhilesi.org, 服务优选
+hostname-suffix, instagramium.com, 服务优选
+hostname-suffix, instagramizlenme.com, 服务优选
+hostname-suffix, instagramkusu.com, 服务优选
+hostname-suffix, instagramlogin.com, 服务优选
+hostname-suffix, instagramm.com, 服务优选
+hostname-suffix, instagramn.com, 服务优选
+hostname-suffix, instagrampartners.com, 服务优选
+hostname-suffix, instagramphoto.com, 服务优选
+hostname-suffix, instagramq.com, 服务优选
+hostname-suffix, instagramsepeti.com, 服务优选
+hostname-suffix, instagramtakipcisatinal.net, 服务优选
+hostname-suffix, instagramtakiphilesi.com, 服务优选
+hostname-suffix, instagramtips.com, 服务优选
+hostname-suffix, instagramtr.com, 服务优选
+hostname-suffix, instagran.com, 服务优选
+hostname-suffix, instagranm.com, 服务优选
+hostname-suffix, instagrem.com, 服务优选
+hostname-suffix, instagrm.com, 服务优选
+hostname-suffix, instagtram.com, 服务优选
+hostname-suffix, instagy.com, 服务优选
+hostname-suffix, instamgram.com, 服务优选
+hostname-suffix, instangram.com, 服务优选
+hostname-suffix, instanttelegram.com, 服务优选
+hostname-suffix, instaplayer.net, 服务优选
+hostname-suffix, instastyle.tv, 服务优选
+hostname-suffix, instgram.com, 服务优选
+hostname-suffix, intagram.com, 服务优选
+hostname-suffix, intagrm.com, 服务优选
+hostname-suffix, intgram.com, 服务优选
+hostname-suffix, kingstagram.com, 服务优选
+hostname-suffix, lnstagram-help.com, 服务优选
+hostname-suffix, oninstagram.com, 服务优选
+hostname-suffix, online-instagram.com, 服务优选
+hostname-suffix, onlineinstagram.com, 服务优选
+hostname-suffix, theinstagramhack.com, 服务优选
+hostname-suffix, web-instagram.net, 服务优选
+hostname-suffix, wwwinstagram.com, 服务优选
