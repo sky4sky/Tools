@@ -1,69 +1,64 @@
-# 规则名称: GitHub
-# 仓库作者: thNylHx
-# 仓库地址: https://github.com/thNylHx/Tools
-# 规则数量: 64
-
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,copilot-workspace.githubnext.com
-DOMAIN,copilotprodattachments.blob.core.windows.net
-DOMAIN,github-api.arkoselabs.com
-DOMAIN,github-cloud.s3.amazonaws.com
-DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com
-DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com
-DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com
-DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
-DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com
-DOMAIN,productionresultssa0.blob.core.windows.net
-DOMAIN,productionresultssa1.blob.core.windows.net
-DOMAIN,productionresultssa10.blob.core.windows.net
-DOMAIN,productionresultssa11.blob.core.windows.net
-DOMAIN,productionresultssa12.blob.core.windows.net
-DOMAIN,productionresultssa13.blob.core.windows.net
-DOMAIN,productionresultssa14.blob.core.windows.net
-DOMAIN,productionresultssa15.blob.core.windows.net
-DOMAIN,productionresultssa16.blob.core.windows.net
-DOMAIN,productionresultssa17.blob.core.windows.net
-DOMAIN,productionresultssa18.blob.core.windows.net
-DOMAIN,productionresultssa19.blob.core.windows.net
-DOMAIN,productionresultssa2.blob.core.windows.net
-DOMAIN,productionresultssa3.blob.core.windows.net
-DOMAIN,productionresultssa4.blob.core.windows.net
-DOMAIN,productionresultssa5.blob.core.windows.net
-DOMAIN,productionresultssa6.blob.core.windows.net
-DOMAIN,productionresultssa7.blob.core.windows.net
-DOMAIN,productionresultssa8.blob.core.windows.net
-DOMAIN,productionresultssa9.blob.core.windows.net
-DOMAIN-SUFFIX,atom.io
-DOMAIN-SUFFIX,collector.github.com
-DOMAIN-SUFFIX,dependabot.com
-DOMAIN-SUFFIX,gh.io
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,ghe.com
-DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,github.ai
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.career
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.community
-DOMAIN-SUFFIX,github.dev
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,githubhackathon.com
-DOMAIN-SUFFIX,githubnext.com
-DOMAIN-SUFFIX,githubpreview.dev
-DOMAIN-SUFFIX,githubstatus.com
-DOMAIN-SUFFIX,githubsupport.com
-DOMAIN-SUFFIX,githubuniverse.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,myoctocat.com
-DOMAIN-SUFFIX,npm.community
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,octocaptcha.com
-DOMAIN-SUFFIX,opensource.guide
-DOMAIN-SUFFIX,repo.new
-DOMAIN-SUFFIX,thegithubshop.com
+hostname, copilot-proxy.githubusercontent.com, 服务优选
+hostname, copilot-telemetry-service.githubusercontent.com, 服务优选
+hostname, copilot-telemetry.githubusercontent.com, 服务优选
+hostname, copilot-workspace.githubnext.com, 服务优选
+hostname, copilotprodattachments.blob.core.windows.net, 服务优选
+hostname, github-api.arkoselabs.com, 服务优选
+hostname, github-cloud.s3.amazonaws.com, 服务优选
+hostname, github-production-release-asset-2e65be.s3.amazonaws.com, 服务优选
+hostname, github-production-repository-file-5c1aeb.s3.amazonaws.com, 服务优选
+hostname, github-production-repository-image-32fea6.s3.amazonaws.com, 服务优选
+hostname, github-production-upload-manifest-file-7fdce7.s3.amazonaws.com, 服务优选
+hostname, github-production-user-asset-6210df.s3.amazonaws.com, 服务优选
+hostname, productionresultssa0.blob.core.windows.net, 服务优选
+hostname, productionresultssa1.blob.core.windows.net, 服务优选
+hostname, productionresultssa10.blob.core.windows.net, 服务优选
+hostname, productionresultssa11.blob.core.windows.net, 服务优选
+hostname, productionresultssa12.blob.core.windows.net, 服务优选
+hostname, productionresultssa13.blob.core.windows.net, 服务优选
+hostname, productionresultssa14.blob.core.windows.net, 服务优选
+hostname, productionresultssa15.blob.core.windows.net, 服务优选
+hostname, productionresultssa16.blob.core.windows.net, 服务优选
+hostname, productionresultssa17.blob.core.windows.net, 服务优选
+hostname, productionresultssa18.blob.core.windows.net, 服务优选
+hostname, productionresultssa19.blob.core.windows.net, 服务优选
+hostname, productionresultssa2.blob.core.windows.net, 服务优选
+hostname, productionresultssa3.blob.core.windows.net, 服务优选
+hostname, productionresultssa4.blob.core.windows.net, 服务优选
+hostname, productionresultssa5.blob.core.windows.net, 服务优选
+hostname, productionresultssa6.blob.core.windows.net, 服务优选
+hostname, productionresultssa7.blob.core.windows.net, 服务优选
+hostname, productionresultssa8.blob.core.windows.net, 服务优选
+hostname, productionresultssa9.blob.core.windows.net, 服务优选
+hostname-suffix, atom.io, 服务优选
+hostname-suffix, collector.github.com, 服务优选
+hostname-suffix, dependabot.com, 服务优选
+hostname-suffix, gh.io, 服务优选
+hostname-suffix, ghcr.io, 服务优选
+hostname-suffix, ghe.com, 服务优选
+hostname-suffix, git.io, 服务优选
+hostname-suffix, github.ai, 服务优选
+hostname-suffix, github.blog, 服务优选
+hostname-suffix, github.career, 服务优选
+hostname-suffix, github.com, 服务优选
+hostname-suffix, github.community, 服务优选
+hostname-suffix, github.dev, 服务优选
+hostname-suffix, github.io, 服务优选
+hostname-suffix, githubapp.com, 服务优选
+hostname-suffix, githubassets.com, 服务优选
+hostname-suffix, githubcopilot.com, 服务优选
+hostname-suffix, githubhackathon.com, 服务优选
+hostname-suffix, githubnext.com, 服务优选
+hostname-suffix, githubpreview.dev, 服务优选
+hostname-suffix, githubstatus.com, 服务优选
+hostname-suffix, githubsupport.com, 服务优选
+hostname-suffix, githubuniverse.com, 服务优选
+hostname-suffix, githubusercontent.com, 服务优选
+hostname-suffix, myoctocat.com, 服务优选
+hostname-suffix, npm.community, 服务优选
+hostname-suffix, npmjs.com, 服务优选
+hostname-suffix, npmjs.org, 服务优选
+hostname-suffix, octocaptcha.com, 服务优选
+hostname-suffix, opensource.guide, 服务优选
+hostname-suffix, repo.new, 服务优选
+hostname-suffix, thegithubshop.com, 服务优选
