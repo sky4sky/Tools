@@ -1,49 +1,44 @@
-# 规则名称: Twitter
-# 仓库作者: thNylHx
-# 仓库地址: https://github.com/thNylHx/Tools
-# 规则数量: 44
-
-DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,cms-twdigitalassets.com
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tellapart.com
-DOMAIN-SUFFIX,tweetdeck.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.biz
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,twitter.map.fastly.net
-DOMAIN-SUFFIX,twittercommunity.com
-DOMAIN-SUFFIX,twitterflightschool.com
-DOMAIN-SUFFIX,twitterinc.com
-DOMAIN-SUFFIX,twitteroauth.com
-DOMAIN-SUFFIX,twitterstat.us
-DOMAIN-SUFFIX,twtrdns.net
-DOMAIN-SUFFIX,twttr.com
-DOMAIN-SUFFIX,twttr.net
-DOMAIN-SUFFIX,twvid.com
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.com
-IP-CIDR,103.252.112.0/22,no-resolve
-IP-CIDR,104.244.41.0/24,no-resolve
-IP-CIDR,104.244.42.0/24,no-resolve
-IP-CIDR,104.244.44.0/22,no-resolve
-IP-CIDR,185.45.4.0/22,no-resolve
-IP-CIDR,188.64.224.0/21,no-resolve
-IP-CIDR,192.133.76.0/22,no-resolve
-IP-CIDR,192.48.236.0/23,no-resolve
-IP-CIDR,199.16.156.0/22,no-resolve
-IP-CIDR,199.59.148.0/22,no-resolve
-IP-CIDR,199.96.56.0/23,no-resolve
-IP-CIDR,202.160.128.0/22,no-resolve
-IP-CIDR,209.237.208.0/24,no-resolve
-IP-CIDR,64.63.0.0/18,no-resolve
-IP-CIDR,69.12.56.0/21,no-resolve
-IP-CIDR,8.25.194.0/23,no-resolve
-IP-CIDR,8.25.196.0/23,no-resolve
-IP-CIDR6,2400:6680:f000::/36,no-resolve
-IP-CIDR6,2606:1f80:f000::/36,no-resolve
-IP-CIDR6,2a04:9d40:f000::/36,no-resolve
+hostname-suffix, ads-twitter.com, 服务优选
+hostname-suffix, cms-twdigitalassets.com, 服务优选
+hostname-suffix, periscope.tv, 服务优选
+hostname-suffix, pscp.tv, 服务优选
+hostname-suffix, t.co, 服务优选
+hostname-suffix, tellapart.com, 服务优选
+hostname-suffix, tweetdeck.com, 服务优选
+hostname-suffix, twimg.com, 服务优选
+hostname-suffix, twitpic.com, 服务优选
+hostname-suffix, twitter.biz, 服务优选
+hostname-suffix, twitter.com, 服务优选
+hostname-suffix, twitter.jp, 服务优选
+hostname-suffix, twitter.map.fastly.net, 服务优选
+hostname-suffix, twittercommunity.com, 服务优选
+hostname-suffix, twitterflightschool.com, 服务优选
+hostname-suffix, twitterinc.com, 服务优选
+hostname-suffix, twitteroauth.com, 服务优选
+hostname-suffix, twitterstat.us, 服务优选
+hostname-suffix, twtrdns.net, 服务优选
+hostname-suffix, twttr.com, 服务优选
+hostname-suffix, twttr.net, 服务优选
+hostname-suffix, twvid.com, 服务优选
+hostname-suffix, vine.co, 服务优选
+hostname-suffix, x.com, 服务优选
+ip-cidr, ,103.252.112.0/22, 服务优选
+ip-cidr, ,104.244.41.0/24, 服务优选
+ip-cidr, ,104.244.42.0/24, 服务优选
+ip-cidr, ,104.244.44.0/22, 服务优选
+ip-cidr, ,185.45.4.0/22, 服务优选
+ip-cidr, ,188.64.224.0/21, 服务优选
+ip-cidr, ,192.133.76.0/22, 服务优选
+ip-cidr, ,192.48.236.0/23, 服务优选
+ip-cidr, ,199.16.156.0/22, 服务优选
+ip-cidr, ,199.59.148.0/22, 服务优选
+ip-cidr, ,199.96.56.0/23, 服务优选
+ip-cidr, ,202.160.128.0/22, 服务优选
+ip-cidr, ,209.237.208.0/24, 服务优选
+ip-cidr, ,64.63.0.0/18, 服务优选
+ip-cidr, ,69.12.56.0/21, 服务优选
+ip-cidr, ,8.25.194.0/23, 服务优选
+ip-cidr, ,8.25.196.0/23, 服务优选
+ip-cidr6, 2400:6680:f000::/36, 服务优选
+ip-cidr6, 2606:1f80:f000::/36, 服务优选
+ip-cidr6, 2a04:9d40:f000::/36, 服务优选
