@@ -1,63 +1,58 @@
-# 规则名称: Telegram
-# 仓库作者: thNylHx
-# 仓库地址: https://github.com/thNylHx/Tools
-# 规则数量: 58
-
-DOMAIN,api.mixpanel.com
-DOMAIN,events-gateway.ncdev.site
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,fragment.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,imem.app
-DOMAIN-SUFFIX,iturrit.com
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,mbrx.app
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,stel.com
-DOMAIN-SUFFIX,swiftgram.app
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegramdownload.com
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,ton.org
-DOMAIN-SUFFIX,toncenter.com
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
-DOMAIN-SUFFIX,walletbot.me
-DOMAIN-KEYWORD,nicegram
-DOMAIN-KEYWORD,telegram
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR,194.221.250.50/32,no-resolve
-IP-CIDR,5.28.192.0/18,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/21,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.108.8.0/21,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/47,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
-IP-ASN,211157,no-resolve
-IP-ASN,44907,no-resolve
-IP-ASN,59930,no-resolve
-IP-ASN,62014,no-resolve
-IP-ASN,62041,no-resolve
+hostname, api.mixpanel.com, 服务优选
+hostname, events-gateway.ncdev.site, 服务优选
+hostname-suffix, cdn-telegram.org, 服务优选
+hostname-suffix, comments.app, 服务优选
+hostname-suffix, contest.com, 服务优选
+hostname-suffix, fragment.com, 服务优选
+hostname-suffix, graph.org, 服务优选
+hostname-suffix, imem.app, 服务优选
+hostname-suffix, iturrit.com, 服务优选
+hostname-suffix, legra.ph, 服务优选
+hostname-suffix, mbrx.app, 服务优选
+hostname-suffix, quiz.directory, 服务优选
+hostname-suffix, stel.com, 服务优选
+hostname-suffix, swiftgram.app, 服务优选
+hostname-suffix, t.me, 服务优选
+hostname-suffix, tdesktop.com, 服务优选
+hostname-suffix, telega.one, 服务优选
+hostname-suffix, telegra.ph, 服务优选
+hostname-suffix, telegram-cdn.org, 服务优选
+hostname-suffix, telegram.dog, 服务优选
+hostname-suffix, telegram.me, 服务优选
+hostname-suffix, telegram.org, 服务优选
+hostname-suffix, telegram.space, 服务优选
+hostname-suffix, telegramdownload.com, 服务优选
+hostname-suffix, telesco.pe, 服务优选
+hostname-suffix, tg.dev, 服务优选
+hostname-suffix, ton.org, 服务优选
+hostname-suffix, toncenter.com, 服务优选
+hostname-suffix, tx.me, 服务优选
+hostname-suffix, usercontent.dev, 服务优选
+hostname-suffix, walletbot.me, 服务优选
+hostname-keyword, nicegram, 服务优选
+hostname-keyword, telegram, 服务优选
+ip-cidr, ,149.154.160.0/20, 服务优选
+ip-cidr, ,185.76.151.0/24, 服务优选
+ip-cidr, ,194.221.250.50/32, 服务优选
+ip-cidr, ,5.28.192.0/18, 服务优选
+ip-cidr, ,91.105.192.0/23, 服务优选
+ip-cidr, ,91.108.12.0/22, 服务优选
+ip-cidr, ,91.108.16.0/21, 服务优选
+ip-cidr, ,91.108.16.0/22, 服务优选
+ip-cidr, ,91.108.20.0/22, 服务优选
+ip-cidr, ,91.108.4.0/22, 服务优选
+ip-cidr, ,91.108.56.0/22, 服务优选
+ip-cidr, ,91.108.8.0/21, 服务优选
+ip-cidr, ,91.108.8.0/22, 服务优选
+ip-cidr, ,95.161.64.0/20, 服务优选
+ip-cidr6, 2001:67c:4e8::/48, 服务优选
+ip-cidr6, 2001:b28:f23c::/47, 服务优选
+ip-cidr6, 2001:b28:f23c::/48, 服务优选
+ip-cidr6, 2001:b28:f23d::/48, 服务优选
+ip-cidr6, 2001:b28:f23f::/48, 服务优选
+ip-cidr6, 2a0a:f280::/32, 服务优选
+IP-ASN, 211157,no-resolve, 服务优选
+IP-ASN, 44907,no-resolve, 服务优选
+IP-ASN, 59930,no-resolve, 服务优选
+IP-ASN, 62014,no-resolve, 服务优选
+IP-ASN, 62041,no-resolve, 服务优选
