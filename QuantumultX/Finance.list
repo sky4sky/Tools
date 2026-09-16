@@ -1,0 +1,211 @@
+# ============================================================================
+# 名称: Finance.list — 国内金融类服务直连规则
+# 作者: sky4sky
+# 仓库: sky4sky/Tools / QuantumultX
+# 更新: 2026-09-16
+# 说明: 匹配命中后路由至「金融直连」策略组（direct → reject 兜底）。
+#       金融交易类流量原则上不应经过海外代理节点。
+# ============================================================================
+
+# ── 移动支付 / 收银台 ─────────────────────────────────────────────────
+host-suffix, alipay.com, 金融直连
+host-suffix, alipay.com.cn, 金融直连
+host-suffix, alipay.net, 金融直连
+host-suffix, antfin.com, 金融直连
+host-suffix, antgroup.com, 金融直连
+host-suffix, antbank.cn, 金融直连
+host-suffix, mybank.cn, 金融直连
+host-suffix, unionpay.com, 金融直连
+host-suffix, unionpay.com.cn, 金融直连
+host-suffix, upass.org, 金融直连
+host-suffix, tenpay.com, 金融直连
+host-suffix, tenpay.cn, 金融直连
+host-suffix, wx.tenpay.com, 金融直连
+host-suffix, wechatpay.com, 金融直连
+host-suffix, wechatpay.cn, 金融直连
+host-suffix, jdpay.com, 金融直连
+host-suffix, jdpay.com.cn, 金融直连
+host-suffix, jdpay.net, 金融直连
+host-suffix, jd.com, 金融直连
+host-suffix, jd.com.cn, 金融直连
+host-suffix, jd.hk, 金融直连
+host-suffix, jddj.com, 金融直连
+
+# ── 国有大型商业银行 ──────────────────────────────────────────────────
+# 工商银行 ICBC
+host-suffix, icbc.com.cn, 金融直连
+host-suffix, icbc.com, 金融直连
+# 农业银行 ABC
+host-suffix, abchina.com, 金融直连
+host-suffix, abchina.com.cn, 金融直连
+# 中国银行 BOC
+host-suffix, bankofchina.com, 金融直连
+host-suffix, bankofchina.com.cn, 金融直连
+host-suffix, boc.cn, 金融直连
+# 建设银行 CCB
+host-suffix, ccb.com, 金融直连
+host-suffix, ccb.com.cn, 金融直连
+host-suffix, ccb.net, 金融直连
+host-suffix, ccbf.com, 金融直连
+# 交通银行 BCM
+host-suffix, bankcomm.com.cn, 金融直连
+host-suffix, bankcomm.com, 金融直连
+host-suffix, bocom.cn, 金融直连
+# 邮储银行 PSBC
+host-suffix, psbc.com, 金融直连
+host-suffix, psbc.com.cn, 金融直连
+# 国家开发银行 CDB
+host-suffix, cdb.com.cn, 金融直连
+
+# ── 全国性股份制商业银行 ──────────────────────────────────────────────
+# 招商银行 CMB
+host-suffix, cmbchina.com, 金融直连
+host-suffix, cmbchina.com.cn, 金融直连
+host-suffix, cmb.com.cn, 金融直连
+host-suffix, cmb.com, 金融直连
+# 中信银行 CITIC
+host-suffix, citicbank.com, 金融直连
+host-suffix, citicbank.com.cn, 金融直连
+# 民生银行 CMBC
+host-suffix, cmbc.com.cn, 金融直连
+host-suffix, cmbc.com, 金融直连
+# 兴业银行 CIB
+host-suffix, cib.com.cn, 金融直连
+host-suffix, cib.com, 金融直连
+# 浦发银行 SPDB
+host-suffix, spdb.com.cn, 金融直连
+host-suffix, spdb.com, 金融直连
+# 光大银行 CEB
+host-suffix, ceb.com.cn, 金融直连
+host-suffix, ceb.com, 金融直连
+# 华夏银行 HXB
+host-suffix, hxb.com.cn, 金融直连
+host-suffix, hxb.com, 金融直连
+# 平安银行 PAB
+host-suffix, pab.com.cn, 金融直连
+host-suffix, pab.com, 金融直连
+# 广发银行 CGB
+host-suffix, cgbchina.com.cn, 金融直连
+host-suffix, cgbchina.com, 金融直连
+
+# ── 城市商业银行 ──────────────────────────────────────────────────────
+# 北京银行
+host-suffix, bankofbeijing.com.cn, 金融直连
+host-suffix, bankofbeijing.com, 金融直连
+# 上海银行
+host-suffix, bankofshanghai.com, 金融直连
+host-suffix, bankofshanghai.com.cn, 金融直连
+host-suffix, bosc.com.cn, 金融直连
+# 宁波银行
+host-suffix, nbcb.com.cn, 金融直连
+# 南京银行
+host-suffix, bankofnanjing.com.cn, 金融直连
+host-suffix, njcb.com.cn, 金融直连
+# 杭州银行
+host-suffix, hzbank.com.cn, 金融直连
+host-suffix, hzbank.com, 金融直连
+# 苏州银行
+host-suffix, bankofsuzhou.com.cn, 金融直连
+# 成都银行
+host-suffix, bankofcd.com.cn, 金融直连
+# 长沙银行
+host-suffix, csbc.com.cn, 金融直连
+# 厦门国际银行
+host-suffix, bankcmss.com.cn, 金融直连
+# 浙商银行
+host-suffix, czbank.com, 金融直连
+# 渤海银行
+host-suffix, cbhb.com.cn, 金融直连
+# 郑州银行
+host-suffix, bankofzz.com.cn, 金融直连
+# 重庆银行
+host-suffix, cqb.cn, 金融直连
+
+# ── 农信社 / 农商行 ───────────────────────────────────────────────────
+host-suffix, nongyin.com, 金融直连
+
+# ── 外汇 / 贵金属 / 交易所 ────────────────────────────────────────────
+host-suffix, shfe.com.cn, 金融直连
+host-suffix, cffex.com.cn, 金融直连
+host-suffix, dce.com.cn, 金融直连
+host-suffix, cngold.org, 金融直连
+host-suffix, sge.com.cn, 金融直连
+host-suffix, sge.org.cn, 金融直连
+
+# ── 交易所 ────────────────────────────────────────────────────────────
+host-suffix, sse.com.cn, 金融直连
+host-suffix, szse.cn, 金融直连
+host-suffix, szzz.com.cn, 金融直连
+host-suffix, neeq.com.cn, 金融直连
+
+# ── 证券公司 ─────────────────────────────────────────────────────────
+host-suffix, eastmoney.com, 金融直连
+host-suffix, eastmoney.com.cn, 金融直连
+host-suffix, emcmw.com, 金融直连
+host-suffix, emsecurities.com.cn, 金融直连
+host-suffix, emsec.com, 金融直连
+host-suffix, hexun.com, 金融直连
+host-suffix, 10jqka.com.cn, 金融直连
+host-suffix, csc1080.com, 金融直连
+host-suffix, csc1080.com.cn, 金融直连
+host-suffix, csc.com.cn, 金融直连
+host-suffix, cindasc.com, 金融直连
+host-suffix, cindasc.com.cn, 金融直连
+host-suffix, cinda.com.cn, 金融直连
+host-suffix, cinda.com, 金融直连
+host-suffix, galaxy.com.cn, 金融直连
+host-suffix, gft.com.cn, 金融直连
+host-suffix, guosen.com.cn, 金融直连
+host-suffix, guolian.com.cn, 金融直连
+host-suffix, ccnew.com, 金融直连
+host-suffix, zhaoshangsec.com, 金融直连
+host-suffix, scstock.com, 金融直连
+host-suffix, htsc.com.cn, 金融直连
+host-suffix, sohu.com, 金融直连
+host-suffix, sohu.com.cn, 金融直连
+
+# ── 期货 / 期权 ──────────────────────────────────────────────────────
+host-suffix, nanhua.com.cn, 金融直连
+host-suffix, yinzheng.com.cn, 金融直连
+host-suffix, nffund.com, 金融直连
+
+# ── 基金公司 ─────────────────────────────────────────────────────────
+host-suffix, fund001.com, 金融直连
+host-suffix, fund001.com.cn, 金融直连
+host-suffix, amcfortune.com, 金融直连
+host-suffix, ccbfund.com.cn, 金融直连
+host-suffix, ccbfund.com, 金融直连
+host-suffix, zhangshangfunds.com, 金融直连
+host-suffix, bosera.com, 金融直连
+host-suffix, eastmoneyfund.com, 金融直连
+
+# ── 保险公司 ─────────────────────────────────────────────────────────
+host-suffix, pingan.com, 金融直连
+host-suffix, pingan.com.cn, 金融直连
+host-suffix, pingan.cn, 金融直连
+host-suffix, cpic.com.cn, 金融直连
+host-suffix, cpic.com, 金融直连
+host-suffix, picc.com.cn, 金融直连
+host-suffix, picc.com, 金融直连
+host-suffix, taikang.com.cn, 金融直连
+host-suffix, taiping.com, 金融直连
+host-suffix, guohao.com, 金融直连
+host-suffix, china-pacific.com, 金融直连
+host-suffix, axa.cn, 金融直连
+host-suffix, anlia.cn, 金融直连
+host-suffix, ccb-life.com.cn, 金融直连
+host-suffix, ccb-life.com, 金融直连
+
+# ── 财经资讯 / 数据 ───────────────────────────────────────────────────
+host-suffix, cls.cn, 金融直连
+host-suffix, yicai.com, 金融直连
+host-suffix, caixin.com, 金融直连
+host-suffix, wallstreetcn.com, 金融直连
+host-suffix, cngold.org, 金融直连
+host-suffix, 95588.com, 金融直连
+host-suffix, 95588.com.cn, 金融直连
+
+# ── 征信 / 清算 ───────────────────────────────────────────────────────
+host-suffix, pcc.com.cn, 金融直连
+host-suffix, chinaratings.com.cn, 金融直连
+host-suffix, ccxg.com.cn, 金融直连
