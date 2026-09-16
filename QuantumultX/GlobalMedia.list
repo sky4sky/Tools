@@ -351,7 +351,3 @@ ip-cidr, 64.120.128.0/17, 服务优选
 ip-cidr, 66.197.128.0/17, 服务优选
 ip-cidr, 69.53.224.0/19, 服务优选
 ip-cidr, 8.41.4.0/24, 服务优选
-PROCESS-NAME, com.viu.pad, 服务优选
-PROCESS-NAME, com.viu.phone, 服务优选
-PROCESS-NAME, com.vuclip.viu, 服务优选
-URL-REGEX, ^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/, 服务优选
