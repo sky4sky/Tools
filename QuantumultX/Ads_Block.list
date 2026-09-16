@@ -1889,4 +1889,3 @@ host-suffix, abtest-api-data.mihoyo.com, reject
 host-suffix, abtest-ch.snssdk.com, reject
 host-suffix, abtest.alibaba.com, reject
 host-suffix, abtest.todesk.com, reject
-host-suffix, abtest3-misc-hl.zijieapi.
